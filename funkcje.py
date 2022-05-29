@@ -1,6 +1,6 @@
 
 def ile_osob(dl, szer, pietra):
-    if (isinstance(dl, int),(dl,float)) and dl >= 1 and isinstance(szer,int, float) and szer >= 1 and isinstance(pietra,int) and pietra >= 1:
+    if isinstance(dl,(int,float)) and dl >= 1 and isinstance(szer,(int, float)) and szer >= 1 and isinstance(pietra,int) and pietra >= 1:
         return dl * szer * pietra
     elif dl == 0 or szer == 0 or pietra == 0:
         return 0
